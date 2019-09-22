@@ -9,6 +9,8 @@ body * {
 }
 
 .container {
+  display: flex;
+  flex-direction: column;
   max-width: 1200px;
   margin: 0 auto;
 }
@@ -25,6 +27,10 @@ body * {
 }
 .container .testimonials {
   height: 30vh;
+}
+.container .paynow {
+  width: max-content;
+  align-self: center;
 }
 
 /*# sourceMappingURL=style.css.map */

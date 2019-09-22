@@ -9,16 +9,18 @@ body {
 }
 
 .container {
+    display: flex;
+    flex-direction: column;
+    max-width: 1200px;
+    //any extra space is distributed to the left and right, keeping our div in center
+    margin: 0 auto;
+
     // Any child element of div.cotainer will have a different background
     * {
         background-color: rgb(18, 22, 87);
         color: white;
         margin-bottom: 10px;
     }
-
-    max-width: 1200px;
-    //any extra space is distributed to the left and right, keeping our div in center
-    margin: 0 auto;
 
     .jumbotron {
         height: 500px;
@@ -33,6 +35,8 @@ body {
     }
 
     .paynow {
+        width: max-content;
+        align-self: center;
     }
 
     .fab {
