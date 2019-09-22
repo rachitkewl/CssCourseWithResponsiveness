@@ -37,6 +37,10 @@ body {
 }
 .container .stats {
   height: 400px;
+  text-align: center;
+}
+.container .stats .statslist {
+  display: flex;
 }
 .container .testimonials {
   height: 30vh;
