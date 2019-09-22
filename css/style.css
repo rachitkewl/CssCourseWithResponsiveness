@@ -19,6 +19,7 @@ body {
   background-color: #121657;
   display: flex;
   justify-content: space-between;
+  margin-bottom: 0;
 }
 .container header .navbar-links a {
   color: white;

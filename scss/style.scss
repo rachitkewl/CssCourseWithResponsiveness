@@ -27,6 +27,7 @@ body {
         //header has two divs as children, one for logo, one for links
         //space-between pushes links to right
         justify-content: space-between;
+        margin-bottom: 0;
 
         .navbar-links {
             a {
