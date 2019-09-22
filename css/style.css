@@ -21,6 +21,13 @@ body {
   display: flex;
   justify-content: space-between;
 }
+.container header .navbar-links a {
+  text-decoration: none;
+  transition: all 1s;
+}
+.container header .navbar-links a:hover {
+  text-decoration: underline;
+}
 .container .jumbotron {
   height: 500px;
 }

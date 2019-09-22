@@ -26,6 +26,17 @@ body {
         //header has two divs as children, one for logo, one for links
         //space-between pushes links to right
         justify-content: space-between;
+
+        .navbar-links {
+            a {
+                text-decoration: none;
+                transition: all 1s;
+
+                &:hover {
+                    text-decoration: underline;
+                }
+            }
+        }
     }
 
     .jumbotron {
