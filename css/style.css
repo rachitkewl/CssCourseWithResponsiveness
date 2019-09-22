@@ -43,8 +43,8 @@ body {
   grid-auto-rows: min-content 1fr;
 }
 .container .stats .statslist {
-  display: flex;
-  justify-content: space-between;
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr 1fr;
 }
 .container .stats .statslist .statsitem {
   background-color: #ddd;
