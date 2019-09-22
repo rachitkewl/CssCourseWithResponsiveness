@@ -1,5 +1,5 @@
 body {
-    background-color: aqua;
+    // background-color: aqua;
     font-family: "Open Sans Condensed";
     font-size: 3rem;
     margin: 0;
@@ -15,12 +15,13 @@ body {
 
     // Any child element of div.cotainer will have a different background
     * {
-        background-color: rgb(18, 22, 87);
-        color: white;
+        // background-color: rgb(18, 22, 87);
         margin-bottom: 10px;
     }
 
     header {
+        color: white;
+        background-color: rgb(18, 22, 87);
         display: flex;
         //reason why all links were wrapped in one div
         //header has two divs as children, one for logo, one for links
@@ -29,6 +30,7 @@ body {
 
         .navbar-links {
             a {
+                color: white;
                 text-decoration: none;
                 border-bottom: 1px solid transparent;
                 transition: border-bottom 1s;
@@ -41,6 +43,8 @@ body {
     }
 
     .jumbotron {
+        color: white;
+        background-color: rgb(18, 22, 87);
         height: 500px;
         display: flex;
         justify-content: center;
@@ -64,12 +68,12 @@ body {
                 margin: 5px;
                 display: flex;
                 flex-direction: column;
-                background-color: #fff;
+                background-color: rgb(140, 171, 192);
                 color: #000;
                 padding: 10px;
                 * {
                     color: #000;
-                    background-color: #fff;
+                    background-color: rgb(140, 171, 192);
                 }
             }
         }
@@ -77,13 +81,22 @@ body {
 
     .testimonials {
         height: 30vh;
+        text-align: center;
     }
 
     .paynow {
         width: max-content;
         align-self: center;
+        background-color: rgb(18, 22, 87);
+        color: white;
+        padding: 10px;
     }
 
+    footer {
+        background-color: rgb(18, 22, 87);
+        color: white;
+        text-align: center;
+    }
     .fab {
         width: max-content;
         //sticking it always to bottom right of the view
@@ -95,5 +108,6 @@ body {
         //styling other things
         background-color: white;
         color: black;
+        border: 1px solid black;
     }
 }
