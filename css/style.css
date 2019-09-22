@@ -31,6 +31,8 @@ body {
 }
 .container .jumbotron {
   height: 500px;
+  display: flex;
+  justify-content: center;
 }
 .container .stats {
   height: 30vh;
