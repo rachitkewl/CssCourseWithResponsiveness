@@ -162,6 +162,7 @@ body {
 
 @media only screen and (max-width: 920px) {
     .container .stats {
+        height: 600px;
         .statslist {
             grid-template-columns: 1fr 1fr;
             grid-auto-rows: 1fr 1fr;
