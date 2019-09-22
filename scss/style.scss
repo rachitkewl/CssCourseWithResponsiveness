@@ -28,6 +28,7 @@ body {
         //space-between pushes links to right
         justify-content: space-between;
         margin-bottom: 0;
+        padding: 0px 20px;
 
         .navbar-links {
             a {
@@ -73,7 +74,7 @@ body {
                 flex-direction: column;
                 background-color: rgb(140, 171, 192);
                 color: #000;
-                padding: 10px;
+                padding: 30px;
                 * {
                     color: #000;
                     background-color: rgb(140, 171, 192);
@@ -107,6 +108,9 @@ body {
         position: fixed;
         bottom: 0;
         right: 0;
+        margin-bottom: 10px;
+        margin-right: 10px;
+        padding: 10px 20px;
 
         //styling other things
         background-color: white;
