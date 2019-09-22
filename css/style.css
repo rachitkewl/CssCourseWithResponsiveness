@@ -41,6 +41,13 @@ body {
 }
 .container .stats .statslist {
   display: flex;
+  justify-content: space-between;
+}
+.container .stats .statslist .statsitem {
+  background-color: #ddd;
+  margin: 5px;
+  display: grid;
+  flex-direction: column;
 }
 .container .testimonials {
   height: 30vh;

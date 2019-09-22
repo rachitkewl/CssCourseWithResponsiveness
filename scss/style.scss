@@ -52,6 +52,14 @@ body {
         text-align: center;
         .statslist {
             display: flex;
+            justify-content: space-between;
+
+            .statsitem {
+                background-color: #ddd;
+                margin: 5px;
+                display: grid;
+                flex-direction: column;
+            }
         }
     }
 
