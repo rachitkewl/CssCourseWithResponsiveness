@@ -38,6 +38,9 @@ body {
 .container .stats {
   height: 400px;
   text-align: center;
+  display: grid;
+  grid-template-columns: 1fr;
+  grid-auto-rows: min-content 1fr;
 }
 .container .stats .statslist {
   display: flex;
