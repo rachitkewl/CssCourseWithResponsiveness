@@ -1,0 +1,88 @@
+body {
+    background-color: aqua;
+    font-family: "Open Sans Condensed", sans-serif;
+
+    * {
+        padding: 0;
+    }
+    text-align: center;
+    font-size: 5rem;
+}
+
+.container {
+    margin: 0 auto;
+    max-width: 1200px;
+    // background-color: aquamarine;
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    grid-auto-rows: minmax(80px, auto);
+    row-gap: 10px;
+    column-gap: 10px;
+    grid-template-areas:
+        "header header header"
+        "jumbotron jumbotron jumbotron"
+        "jumbotron jumbotron jumbotron"
+        "jumbotron jumbotron jumbotron"
+        "jumbotron jumbotron jumbotron"
+        "stats stats stats"
+        "stats stats stats"
+        "stats stats stats"
+        "testimonials testimonials testimonials"
+        "testimonials testimonials testimonials"
+        "testimonials testimonials testimonials"
+        ". paynow ."
+        "footer footer footer";
+
+    * {
+        background-color: rgb(18, 22, 87);
+        color: white;
+    }
+}
+
+.fab {
+    font-size: 1rem;
+    position: fixed;
+    bottom: 0;
+    right: 0;
+    margin: 0px 10px 10px 0px;
+    padding: 20px;
+    border: solid 1px white;
+    transition: background-color 0.3s;
+
+    &:hover {
+        background-color: white;
+        color: black;
+        cursor: pointer;
+    }
+}
+
+header.header {
+    grid-area: header;
+    background-color: rgb(65, 63, 226);
+    color: white;
+}
+
+div.jumbotron {
+    grid-area: jumbotron;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    align-items: center;
+}
+
+section.stats {
+    grid-area: stats;
+}
+
+section.paynow {
+    grid-area: paynow;
+    text-align: center;
+}
+
+section.testimonials {
+    grid-area: testimonials;
+}
+
+footer.footer {
+    grid-area: footer;
+}
