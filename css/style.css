@@ -22,6 +22,9 @@ body {
   margin-bottom: 0;
   padding: 0px 20px;
 }
+.container header .navbar-logo {
+  animation: attention 2s infinite ease;
+}
 .container header .navbar-links a {
   color: white;
   text-decoration: none;
@@ -93,6 +96,19 @@ body {
   background-color: white;
   color: black;
   border: 1px solid black;
+}
+
+@keyframes attention {
+  0% {
+    margin-top: 0px;
+  }
+  50% {
+    margin-top: -10px;
+    font-size: 2.5rem;
+  }
+  100% {
+    margin-top: 0px;
+  }
 }
 
 /*# sourceMappingURL=style.css.map */
