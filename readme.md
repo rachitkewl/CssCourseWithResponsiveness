@@ -9,12 +9,14 @@
     ```scss
      body {
          background-color: aqua;
+         font-family: "Open Sans Condensed"; //better font
      }
      .container {
-         // Any child element of div.cotainer will have a different background
+         // Any child element of div.cotainer will have a different background, and also have margin-bottom so that we can see the area taken by each box
         * {
             background-color: rgb(18, 22, 87);
             color: white;
+            margin-bottom: 10px;
         }
      }
     ```
@@ -38,3 +40,19 @@
     ```
     </p>
     </details>
+
+- Add SASS watcher
+  ```bash
+  sass scss:css
+  #sass inputfolder:outputfolder
+  #will compile ./scss/style.css to ./css/style.css
+  ```
+- Link CSS in your HTML
+  ```html
+    <link rel="stylesheet" type="text/css" href="./css/style.css" />
+    <!-- Using a better font -->
+    <link
+        href="https://fonts.googleapis.com/css?family=Open+Sans+Condensed:300&display=swap"
+        rel="stylesheet"
+    />
+  ```
