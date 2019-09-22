@@ -1,7 +1,18 @@
 # Building Skeleton of a Modern Single Page Application (SPA)
+## What you will Learn 
+- CSS
+- Flex
+- Grid
+- CSS Transitions
+- CSS Animations
+- Responsiveness using Media Query
 
-![skeleton of modern SPA](https://i.imgur.com/PgG5nj5.png)
+## How It Looks Like?
 
+<img src="https://i.imgur.com/8ruoUtv.png" alt="drawing" width="400"/>
+<img src="https://i.imgur.com/0NNogq2.png" alt="drawing" width="400"/>
+
+## Tutorial
 - Give BACKGROUND-COLOR to ALL BOXES
     <details><summary>How?</summary>
     <p>
@@ -22,6 +33,8 @@
     ```
     </p>
     </details>
+
+
 - BODY has only children div.container which is always in center
     <details><summary>How?</summary>
     <p>
@@ -231,3 +244,6 @@
         }
     }
   ```
+
+## How it looked at start?
+<img src="https://i.imgur.com/PgG5nj5.png" alt="drawing" width="400"/>
