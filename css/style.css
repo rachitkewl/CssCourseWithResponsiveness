@@ -33,6 +33,7 @@ body {
   height: 500px;
   display: flex;
   justify-content: center;
+  align-items: center;
 }
 .container .stats {
   height: 30vh;
