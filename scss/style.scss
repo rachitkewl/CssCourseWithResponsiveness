@@ -22,6 +22,10 @@ body {
 
     header {
         display: flex;
+        //reason why all links were wrapped in one div
+        //header has two divs as children, one for logo, one for links
+        //space-between pushes links to right
+        justify-content: space-between;
     }
 
     .jumbotron {

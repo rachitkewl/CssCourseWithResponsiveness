@@ -19,6 +19,7 @@ body {
 }
 .container header {
   display: flex;
+  justify-content: space-between;
 }
 .container .jumbotron {
   height: 500px;
