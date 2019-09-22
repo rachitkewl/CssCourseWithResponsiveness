@@ -23,10 +23,11 @@ body {
 }
 .container header .navbar-links a {
   text-decoration: none;
-  transition: all 1s;
+  border-bottom: 1px solid transparent;
+  transition: border-bottom 1s;
 }
 .container header .navbar-links a:hover {
-  text-decoration: underline;
+  border-bottom: 1px solid white;
 }
 .container .jumbotron {
   height: 500px;
